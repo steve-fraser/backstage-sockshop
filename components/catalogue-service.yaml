@@ -2,13 +2,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: catalogue-service
+  name: podinfo
   description: A microservices-demo service that provides catalogue/product information
   tags:
     - go
   annotations:
     github.com/project-slug: microservices-demo/catalogue
-    backstage.io/kubernetes-id: catalogue-service
+    backstage.io/kubernetes-id: podinfo
   links:
     - url: https://github.com/microservices-demo/catalogue
       title: Project
