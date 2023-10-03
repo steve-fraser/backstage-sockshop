@@ -17,7 +17,7 @@ spec:
   type: service
   lifecycle: production
   owner: sockshop-team
-  system: catalogue
+  system: podinfo
   dependsOn:
     - resource:catalogue-db
   providesApis:
