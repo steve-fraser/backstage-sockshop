@@ -2,13 +2,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: catalogue
-  description: Catalogue System
+  name: podinfo
+  description: Podinfo
   links:
     - url: https://example.com/catalog
       title: Catalog View
       icon: web
 spec:
   owner: sockshop-team
-  domain: catalogue
+  domain: podinfo
   partOf: system:sockshop
